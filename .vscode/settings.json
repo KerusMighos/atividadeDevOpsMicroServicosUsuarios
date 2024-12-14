@@ -1,0 +1,7 @@
+{
+    "python.languageServer": "Pylance",  // Use Pylance para análise de código
+    "python.analysis.typeCheckingMode": "strict",  // Nível de verificação de tipo (pode ser 'basic' ou 'strict')
+    "python.analysis.diagnosticMode": "openFilesOnly",  // Analisar apenas os arquivos abertos
+    "python.analysis.autoSearchPaths": true,  // Procurar por arquivos Python automaticamente
+    "python.analysis.useLibraryCodeForTypes": true  // Usar informações de tipos de bibliotecas
+}

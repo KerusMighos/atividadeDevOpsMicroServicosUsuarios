@@ -1,0 +1,20 @@
+meta {
+  name: CreateProduct
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{hostProducts}}/products
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "name": "HeadSet",
+    "description": "Audio 3d",
+    "price": 200.0,
+    "token": "9b133aca-a372-4cd0-9e57-85bbf6910489"
+  }
+}

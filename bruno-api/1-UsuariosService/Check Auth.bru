@@ -1,0 +1,17 @@
+meta {
+  name: Check Auth
+  type: http
+  seq: 5
+}
+
+post {
+  url: {{host}}/users/checkauth
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "token": "9b133aca-a372-4cd0-9e57-85bbf6910489"
+  }
+}
